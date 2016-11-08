@@ -10,10 +10,8 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.label :text %><br>
-    <%= f.text_field :text %>
+  <div class="field form-group">
+    <%= f.text_field :text, class: 'form-control' %>
   </div>
   <div class="actions">
     <%= f.submit %>
